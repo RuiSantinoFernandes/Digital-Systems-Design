@@ -1,4 +1,4 @@
-# Digital-Systems-Design
+# Digital-Systems-Design Lab 1
 Objective of the Lab
 The purpose of this lab is to introduce the students of CPE 487 to the NEXYS2 FPGA development board and a
 software environment that will allow the students to design a hardware system in VHDL, synthesize their
