@@ -75,7 +75,7 @@ BEGIN
     PORT MAP(
         --instantiate vga_sync component
         pixel_clk => pxl_clk, 
-        orange_in    => S_red, 
+        orange_in    => S_orange, 
         green_in  => S_green, 
         blue_in   => S_blue, 
         orange_out   => vga_orange(2), 
