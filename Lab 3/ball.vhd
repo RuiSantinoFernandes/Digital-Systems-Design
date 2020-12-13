@@ -16,7 +16,7 @@ END ball;
 
 ARCHITECTURE Behavioral OF ball IS
     -- modified size of ball
-	CONSTANT size  : INTEGER := 24;
+	CONSTANT size  : INTEGER := 32;
 	SIGNAL ball_on : STD_LOGIC; -- indicates whether ball is over current pixel position
 	-- current ball position - intitialized to center of screen
 	SIGNAL ball_x  : STD_LOGIC_VECTOR(10 DOWNTO 0) := CONV_STD_LOGIC_VECTOR(400, 11);
